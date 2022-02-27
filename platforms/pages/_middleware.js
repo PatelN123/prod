@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { minHeight } from "tailwindcss/defaultTheme";
 
 export default function middleware(req) {
   const url = req.nextUrl.clone(); // clone the request url
